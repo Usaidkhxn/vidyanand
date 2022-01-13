@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with+device-width, initial-scale=1.0">
+    <title>Vidyanand Website Design - Usaid Khan </title>
+    <link rel="stylesheet" href="webstyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="file:///C:/Users/Khan%20Sir/Desktop/USAID/Vidyanand%20Website/image/mainlogo2.png"></a>
+
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Results.html">RESULTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Students Achievements</h1>
+    </section>
+
+    <!--result page content-->
+
+    <section class="results-content">
+        <div class="row">
+            <div class="result-col">
+                <h2>Result 2020-2021</h2>
+                <b> ZUHER KHAN(ICSE): 86% <br> ZAINAB KHAN: 82% <br> SAMRUDDHI : 82% </b>
+            </div>
+            <div class="result-col">
+                <h2>Result 2019-2020</h2>
+                <b> TABISH SHAIKH: 93% <br> MUHAMMAD ALI: 89% <br> HASSAN MALIK: 86%   </b>
+            </div>
+            <div class="result-col">
+                <h2>Result 2018-2019</h2>
+                <b> AHMED KAPADIA: 90% <br> MADIHA HUSSAIN: 89% <br> AFREEN SHAIKH: 88%   </b>
+            </div>
+            <div class="result-col">
+                <h2>Result 2017-2018</h2>
+                <b>TANUSHREE DATTA: 94% <br> SHILONG : 90%  <br> ABDURRAHMAAN: 88% </b>
+            </div>
+            <div class="result-col">
+                <h2>Result 2016-2017 </h2>
+                <b>USAID KHAN(ICSE): 90% <br> SAQUIB SHAIKH: 85% <br> ANAS SHAIKH: 84% </b>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section>
+        <div class="comment-box">
+            <h3>Leave A Comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="text" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!--footer----->
+    <section class="footer">
+        <h1>About Us</h1>
+        <p>VIDYANAND EDUCARE INSTISTUTE is a well known, coaching institute running successfully since last 15 years in Andheri. We believe in providing all deserving students <br> in and around Andheri with the best curriculum and pedagogy along with the
+            highest quality of education in coaching the students for , 5-10 (SSC, ICSE and CBSE) </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> By Usaid Khan</p>
+    </section>
+
+
+
+    <!-------JavaScript for Toggle Me-------->
+    <script>
+        var navLinks = document.getElementById("navlinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+</body>
+
+</html>
